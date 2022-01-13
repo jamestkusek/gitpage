@@ -1,6 +1,6 @@
 html {
 	font-family: "Azeret Mono";
-	background-color: #5f7bee;
+	background-color: #0059b3;
 }
 
 p, li {
@@ -11,23 +11,21 @@ p, li {
 
 h1 {
 	font-size: 36px;
-	font-family: "Azeret Mono";
+	font-family: "Kaisei Decol", serif;
 	text-align: center;
-	text-shadow: 3px 3px 2px #2F8E8F;
-	color:#50E0E1;
+	text-shadow: 2px 2px 1px black;
+	color:#00ffff;
 }
 
 body {
 	width:1000px;
 	margin: 0 auto;
-	border: 10px solid #F96CE4;
-	background-color: #F0C2EB;
+	border: 10px solid #003366;
+	background-color: #b3d9ff;
 }
 
-.center {
+img {
 	display:block;
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 15px;
-	width: 50%;
+	margin: 0 auto;
+
 }
