@@ -1,31 +1,57 @@
-html {
-	font-family: "Azeret Mono";
-	background-color: #0059b3;
+body {
+	background-color: rgba(0, 255, 172, 0.4);
 }
 
-p, li {
-	font-size: 20px;
-	text-align: left;
-	margin-left: 20px;
+#homebutton{
+	display: block;
+	color:black;
+	width: 192px;
 }
 
 h1 {
-	font-size: 36px;
-	font-family: "Kaisei Decol", serif;
-	text-align: center;
-	text-shadow: 2px 2px 1px black;
-	color:#00ffff;
+	background-color: rgba(0,180,0,0);
+	font-family: "JetBrains Mono";
+	font-size: 28px;
+	position: absolute;
+	top: -10px;
+	left: 14px;
+	z-index:1;
+	outline-style: none;
+	width:192px;
 }
 
-body {
-	width:1000px;
-	margin: 0 auto;
-	border: 10px solid #003366;
-	background-color: #b3d9ff;
+h1:hover {
+	outline-style: solid;
 }
 
-img {
+#shopbutton {
+	display: block;
+	width: 36px;
+	height: 36px;
+	position: fixed;
+	left: 240px;
+	top: 18px;
+	color:black;
+	text-decoration: none;
+}
+#faqbutton {
+	display: block;
+	width: 36px;
+	height: 36px;
+	position: fixed;
+	left: 330px;
+	top: 18px;
+	color:black;
+	text-decoration: none;
+
+}
+#contactbutton {
 	display:block;
-	margin: 0 auto;
-
+	width: 36px;
+	height: 36px;
+	position:fixed;
+	left: 400px;
+	top: 18px;
+	color:black;
+	text-decoration: none;
 }
